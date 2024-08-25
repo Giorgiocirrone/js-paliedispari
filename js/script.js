@@ -95,8 +95,9 @@ form.addEventListener('submit', function (event) {
 
     isPalindroma('ciccio');
 
+    message = ` la parola ${word} è palindroma `;
 
-
+    resulElement.innerHTML = message;
 
 
 
