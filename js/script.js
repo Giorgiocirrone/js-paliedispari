@@ -19,3 +19,85 @@ Buon lavoro e buon divertimento! :slightly_smiling_face:
 
 
 /*chiedere all'utente di inserire una parola e capire se la parola è palindroma  */
+
+
+/*
+
+Fase di preparazione Palindroma 
+
+
+
+*/
+
+
+//funzione palindroma mi deve dare un booleano is-inizio
+
+
+function isPalindroma(word) {
+
+
+    //preparo un flag 
+
+    let result = false;
+
+
+    //capovolgo la parola
+
+    const reverseWord = word.split('').reverse().join('');
+    //verificare se è identico 
+
+    if (resulElement === word) {
+
+        result = true;
+
+    }
+
+    return result;
+
+    //-ciclino for 
+    //-creo una stringa vuota per la parola capovolta 
+    //-aggiungo ogni lettera 
+
+
+
+
+
+
+    //controllo se la parola capovoltà è uguale a prima 
+
+
+}
+
+
+
+
+
+
+
+
+
+//preparazione 
+const form = document.getElementById('palindroma-form');
+const wordField = document.getElementById('word');
+
+const resulElement = document.getElementById('result');
+
+
+
+//dichiarazione delle funzioni 
+
+form.addEventListener('submit', function (event) {
+    //blocco l'invio
+    event.preventDefault();
+    //raccolgo i dati 
+
+    const word = wordField.value.trim();
+
+    isPalindroma('ciccio');
+
+
+
+
+
+
+})
